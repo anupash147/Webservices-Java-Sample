@@ -64,7 +64,5 @@ public class TestRead
         ReadResult result = handler.read(authentication, toRead);
 
         assertTrue("Error message: " + result.getMessage(), result.getSuccess().equals("true") ? true : false);
-        # just testing jenkins 2
-        #
     }
 }
